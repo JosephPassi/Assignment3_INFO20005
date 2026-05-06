@@ -1,0 +1,76 @@
+/* === ### ALL LAYOUT RELATED STYLING  ### === */
+
+section{
+    min-height: 25vh;
+    padding: 10em 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+
+section.h1{
+    font-size: 5em;
+    font-weight: 700;
+}
+
+section.p{
+    font-size: 1.5em;
+}
+
+/* === ### Waves ### === */
+
+.divider{
+    aspect-ratio: 960/300; /* We use aspect-ratio here instead of Height/Width because it's an SVG, so no matter it's size we want it to maintain its dimensions */
+    background: no-repeat center;
+    background-size: cover; /* This ensures that the wave.svg matches the size of the rest of the section */
+}
+
+/* Transition: Brown to Green */
+.wave-green-brown{
+    background-image: url(/images/wave-1.svg); /* Links to wave */
+}
+
+/* Transition: Green to Cream */
+.wave-green-cream{
+    background-image: url(/images/wave-2.svg); /* Links to wave */
+}
+
+/* Transition: Cream to Footer (Blue Waves) */
+.wave-footer{
+    background-image: url(/images/wave-footer.svg); /* Links to wave */
+}
+
+.wave-products{
+    background-image: url(/images/wave-products.svg); /* Links to wave */
+}
+
+/* === ### Buttons ### === */
+
+/* Default Button (General Styling) */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 10px;
+    transition: ease-in-out 0.3s;
+    font-family: "Novecento";
+
+}
+
+/* Small */
+.button.small, .button.small:hover {
+    padding: 10px;
+}
+
+.button.large, .button.large:hover{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.button.cancel, .button.cancel:hover {
+    padding: 10px;
+}

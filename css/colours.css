@@ -1,0 +1,100 @@
+/* === ### ALL COLOUR RELATED STYLING  ### === */
+
+/*
+_______________________________
+
+Primary Colour Palette:
+Brown                   #967927           
+Light Green (Buttons)   #8BAD34 
+Green (Decorative)      #729927
+Creamy White            #E5E7AE
+_______________________________
+
+Additional Colours:
+Dark Blue               #006995
+Blue                    #4BC7CE
+Light Blue              #9DF3C4
+
+Black                   #000000
+White                   #FFFFFF
+_______________________________
+
+*/
+
+html{
+    background-color: #E5E7AE; /* Sets default background to #E5E7AE */
+}
+
+/* === ### Button Colours ### === */
+.button{
+    color: black;
+    border: 2px solid black;   
+}
+
+/* Small Green Buttons */
+.button.small{
+    color: black;
+    background-color: #8BAD34;
+    border: 2px solid #8BAD34;
+
+    
+}
+
+.button.small:hover{
+    color: #8BAD34;
+    background-color: #FFFFFF;
+    border: 2px solid #8BAD34;
+
+    
+}
+
+/* Large Green Buttons */
+.button.large{
+    color: black;
+    background-color: #8BAD34;
+    border: 2px solid #8BAD34;
+
+
+}
+
+.button.large:hover{
+    color: #8BAD34;
+    background-color: #FFFFFF;
+    border: 2px solid #8BAD34;
+
+}
+
+/* Large Brown Buttons */
+.button.cancel{
+    color: #f2f2f2;
+    background-color: #967927;
+    border: 2px solid #967927;
+
+}
+
+.button.cancel:hover{
+    color: #967927;
+    background-color: #f2f2f2;
+    border: 2px solid #967927;
+
+}
+
+
+
+/* === ### Wave Section Colours ### === */
+section.section_brown{
+    background-color: #967927;
+}
+
+section.section_green{
+    background-color: #8BAD34;
+}
+
+section.section_cream{
+    background-color: #E5E7AE;
+}
+
+footer{
+    background-color: #006995;
+    padding-bottom: 100%;
+}
