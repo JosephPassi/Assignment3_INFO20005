@@ -1,8 +1,13 @@
 /* === ### ALL LAYOUT RELATED STYLING  ### === */
 
+main{
+    padding-top: 10em; /* Gap will be concealed by Pattens appended to Nav Bar so don't worry */
+}
+
+
 section{
     min-height: 25vh;
-    padding: 10em 10%;
+    padding: 10em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,12 +35,12 @@ section.p{
 
 /* Transition: Brown to Green */
 .wave-green-brown{
-    background-image: url(/images/wave-1.svg); /* Links to wave */
+    background-image: url(/images/wave-brown-green.svg); /* Links to wave */
 }
 
 /* Transition: Green to Cream */
 .wave-green-cream{
-    background-image: url(/images/wave-2.svg); /* Links to wave */
+    background-image: url(/images/wave-green-cream.svg); /* Links to wave */
 }
 
 /* Transition: Cream to Footer (Blue Waves) */

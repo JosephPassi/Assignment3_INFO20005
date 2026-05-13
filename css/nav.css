@@ -5,11 +5,39 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     position: fixed; /* Ensures nav-link is always at the top of the screen whilst scrolling */
     width: 100%;
+    z-index: 500;
     background-color: #967927;
-    height: 35px;
+    height: 5em;
+    top: 0;
+
+    /* background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/images/wave-haikei.png);
+    bottom: -55px; */
+    
+    /* Good Visualisation of Spacing: https://medium.com/@dhivyakgf/spacebetween-vs-spacearound-vs-spaceevenly-jetpack-compose-arrangements-visually-explained-9cba425292e0 */
+ 
+}
+
+/* Responsible for: Wave featured under Nav Bar */
+.nav-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -55px; /* Ensures that wave is under/below the navbar */
+    width: 100%;
+    height: 60px;
+
+    /* The image itself */
+    background-image: url("/images/wave-haikei.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    /* Helpful Tool/Site: https://app.haikei.app/ */
 }
 
 /* Resonsible for: Logo and Icon Links (Profile, Search, Cart) */
@@ -21,7 +49,7 @@
     gap: 1rem;
 }
 
-/* Responsible for the following Links: Home, Bulk, Seafood, Meat, Baked  */
+/* Responsible for the following Links: Home, Bulk, Seafood, Meat, Baked (Collectively)  */
 .nav-links {
     display: flex;
     gap: 2rem;
@@ -31,7 +59,6 @@
     min-width: 0;
     justify-content: center;
     margin-left: 2rem;
-    color: #FFFFFF;
 
 }
 
@@ -45,7 +72,7 @@
 /* Responsible for the Kiwi Logo */
 #logo {
     aspect-ratio: 10/8;
-    width: 64px;
+    width: 128px;
     object-fit: contain; /* Ensures that icons are contained/fit within the Nav Bar (they don't overflow) */
 
 }
@@ -55,21 +82,22 @@ nav{
     font-family: "Novecento"; 
 }
 
-/* Responsible for Nav Bar Links */
+/* Responsible for: Nav Bar Link (Individually) */
 .nav-link {
   position: relative;
   display: inline-block;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.5rem;
-  transition: color 0.2s ease-in-out; /* Ensure that this is replicated in :hover element too */
+  font-size: 2rem;
+  transition: color 0.3s ease-in-out; /* Ensure that this is replicated in :hover element too */
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: black;
 }
 
+/* Changing Nav Link colour when hovered over */
 .nav-link:hover {
-  transition: color 0.2s ease-in-out;
+  transition: color 0.3s ease-in-out;
   color: #FFFFFF;
 }
 
