@@ -30,11 +30,30 @@ section.hero_section{
 div.hero_content{
     text-align: left ;
     color: #ffff;
+    
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+    padding-left: 5vh;
 }
+
+/* === ### CONTACT INPUT FIELDS ### */
+/* Home Contact Us: Input Field */
+.home_contact {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 10vh;
+    padding-left: 10vh;
+    margin: 2rem;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+
+    border-radius: 12px;
+}
+
+
 
 /* Sections featured within the Home Page */
 
-section.section_brown{
+section.section_order_cards {
     padding-top: 5vh;
     padding-bottom: 15vh;
     padding-left: 5vh;
@@ -54,39 +73,94 @@ section.section_green{
 } 
 
 
-section.section_alternating {    
-    /* display: flex; Return to fix after break */
-    padding-top: 5vh;
-    padding-bottom: 15vh;
-    padding-left: 5vh;
+/* === ### CATERING/FOOD ORDER CARDS ### === */
+.order_card { 
+    box-shadow: 0 4px 8px 0 rgba(94, 94, 94, 0.2);    
+    margin: 5vh;
+    transition: 0.2s;
 
-
-    text-align: left;
 }
 
-/* Alternating Grid/Box Design featured in Home Page */
+.order_card:hover { 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
+}
 
-div.alternating_left{
-    padding-top: 5vh;
-    padding-bottom: 15vh;
-    padding-left: 5vh;
-    margin-right: 50%; /* Restricts text to only half of entire section */
-    text-align: left;
+.order_card_text {
+    padding: 20px;
     background-color: red;
 }
 
-div.alternating_right{
-    padding-top: 5vh;
-    padding-bottom: 15vh;
-    padding-right: 5vh;
-    margin-left: 50%; /* Restricts text to only half of entire section */
+.order_card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+/* Alternating Grid/Box Design featured in Home Page */
+
+/* Whole Left Section */
+div.alternating_left_section{
+    display: flex;
+    width: 100%;
+}
+
+/* Left Section Text Only */
+div.alternating_left_text{
+    flex: 1;
+    /* background-color: red; */
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 11rem;
+} 
+
+/* Left Section Images Only */
+div.alternating_left_section img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+
+}
+
+div.alternating_left_image{
+    flex: 1;
+}
+
+
+/* Whole Right Section */
+div.alternating_right_section{
+    display: flex;
+    width: 100%;
+}
+
+/* Right Section Text Only */
+div.alternating_right_text{
+    flex: 1;
+    /* background-color: blue; */
     text-align: right;
-    background-color: blue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    padding: 11rem;
+} 
+
+/* Right Section Images Only */
+div.alternating_right_section img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
 
 }
 
-img.alternating_images{
-    width: 25%;
+div.alternating_right_image{
+    flex: 1;
 }
+
 
