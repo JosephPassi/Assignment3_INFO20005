@@ -1,0 +1,109 @@
+/* === ### BUTTON LAYOUT ### === */
+
+/* Default Button (General Styling) */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 10px;
+    transition: ease-in-out 0.3s;
+    font-family: "Novecento";
+
+}
+
+/* Small */
+.button.small, .button.small:hover {
+    padding: 10px;
+}
+
+.button.large, .button.large:hover{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.button.cancel, .button.cancel:hover {
+    padding: 10px;
+}
+
+
+/* === ### BUTTON COLOURS ### === */
+.button{
+    color: #000000;
+    border: 2px solid #000000;   
+}
+
+/* Small Green Buttons */
+.button.small{
+    color: #000000;
+    background-color: #8BAD34;
+    border: 2px solid #8BAD34;
+
+    
+}
+
+.button.small:hover{
+    color: #8BAD34;
+    background-color: #FFFFFF;
+    border: 2px solid #8BAD34;
+
+    
+}
+
+/* Large Green Buttons */
+.button.large{
+    color: #000000;
+    background-color: #8BAD34;
+    border: 2px solid #8BAD34;
+
+
+}
+
+.button.large:hover{
+    color: #8BAD34;
+    background-color: #000000;
+    border: 2px solid #8BAD34;
+
+}
+
+/* Large Brown Buttons */
+.button.cancel{
+    color: #f2f2f2;
+    background-color: #967927;
+    border: 2px solid #967927;
+
+}
+
+.button.cancel:hover{
+    color: #967927;
+    background-color: #f2f2f2;
+    border: 2px solid #967927;
+
+}
+
+
+/* === ### BUTTON TYPOGRAPHY ### === */
+a.button{
+    text-transform: uppercase;
+}
+
+.button{
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family: "Novecento";
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button.small{
+    font-size: 1rem;
+
+    
+}
+
+.button.large{
+    font-size: 2rem;
+
+}

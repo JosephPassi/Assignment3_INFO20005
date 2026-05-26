@@ -1,0 +1,37 @@
+/* === ### Waves ### === */
+
+.divider{
+    aspect-ratio: 960/300; /* We use aspect-ratio here instead of Height/Width because it's an SVG, so no matter it's size we want it to maintain its dimensions */
+    background: no-repeat center;
+    background-size: cover; /* This ensures that the wave.svg matches the size of the rest of the section */
+}
+
+
+/* Transition: Hero to Rest of Page */
+.wave-hero{
+    background-image: url(/images/wave-haikei.svg); /* Links to wave */
+
+}
+
+/* Transition: Brown to Green */
+.wave-green-brown{
+    background-image: url(/images/wave-brown-green.svg); /* Links to wave */
+}
+
+/* Transition: Green to Cream */
+.wave-green-cream{
+    background-image: url(/images/wave-green-cream.svg); /* Links to wave */
+}
+
+
+/* Transition: Cream to Footer (Blue Waves) */
+.wave-footer{
+    background-image: url(/images/wave-footer.svg); /* Links to wave */
+}
+
+
+.wave-products{
+    background-image: url(/images/wave-products.svg); /* Links to wave */
+}
+
+/* May need to adjust the size of Wave svgs once more conent is added */

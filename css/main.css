@@ -5,13 +5,11 @@
 @import url(layout.css);
 @import url(nav.css);
 @import url(typography.css);
-@import url(waves.css);
+/* @import url(waves.css); Temporarily disabled to ensure proper formatting without interference */
 
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* === ### CSS RESET ### === */
+/* Ensures that styling remains consistent across all browsers  */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -33,7 +31,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
- 
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -58,7 +57,13 @@ table {
 	border-spacing: 0;
 }
 
-/* CUSTOM STYLING (after CSS reset) */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* === ### CUSTOM STYLING (after CSS reset) ### === */
 html, body {
   height: 100%;
   margin: 0;

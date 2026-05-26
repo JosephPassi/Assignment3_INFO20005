@@ -4,12 +4,12 @@
 }
 
 @font-face {
-    font-family: Novecento;
-    src: url(/fonts/novecento_sans/Novecentosanswide-DemiBold.otf);
+    font-family: Novecento; /* Font name */
+    src: url(/fonts/novecento_sans/Novecentosanswide-DemiBold.otf); /* Font Source */
 }
 
 h1{
-    font-family: "Novecento";
+    font-family: "Novecento", Arial, Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: 900;
     text-transform: uppercase;
@@ -17,37 +17,23 @@ h1{
 }
 
 p{
-    font-family: 'Lato';
+    font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
 /* Controls all Font Size for Sections, Need to break up into seperate elements/font types later maybe? */
+section.h1{
+    font-size: 5em;
+    font-weight: 700;
+}
+
+section.p{
+    font-size: 1.5em;
+}
+
 section.section_brown, 
 section.section_green, 
-section.section_cream {
+section.section_alternating {
     font-size: 2rem;
 }
 
 
-/* Responsible for any Buttons */
-a.button{
-    text-transform: uppercase;
-}
-
-.button{
-    text-decoration: none;
-    text-transform:uppercase;
-    font-family: "Novecento";
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.button.small{
-    font-size: 1rem;
-
-    
-}
-
-.button.large{
-    font-size: 2rem;
-
-}

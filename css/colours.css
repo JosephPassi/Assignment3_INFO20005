@@ -25,62 +25,6 @@ html{
     background-color: #E5E7AE; /* Sets default background to #E5E7AE */
 }
 
-/* === ### Button Colours ### === */
-.button{
-    color: black;
-    border: 2px solid black;   
-}
-
-/* Small Green Buttons */
-.button.small{
-    color: black;
-    background-color: #8BAD34;
-    border: 2px solid #8BAD34;
-
-    
-}
-
-.button.small:hover{
-    color: #8BAD34;
-    background-color: #FFFFFF;
-    border: 2px solid #8BAD34;
-
-    
-}
-
-/* Large Green Buttons */
-.button.large{
-    color: black;
-    background-color: #8BAD34;
-    border: 2px solid #8BAD34;
-
-
-}
-
-.button.large:hover{
-    color: #8BAD34;
-    background-color: #FFFFFF;
-    border: 2px solid #8BAD34;
-
-}
-
-/* Large Brown Buttons */
-.button.cancel{
-    color: #f2f2f2;
-    background-color: #967927;
-    border: 2px solid #967927;
-
-}
-
-.button.cancel:hover{
-    color: #967927;
-    background-color: #f2f2f2;
-    border: 2px solid #967927;
-
-}
-
-
-
 /* === ### Wave Section Colours ### === */
 section.section_brown{
     background-color: #967927;
@@ -90,7 +34,7 @@ section.section_green{
     background-color: #8BAD34;
 }
 
-section.section_cream{
+section.section_alternating{
     background-color: #E5E7AE;
 }
 
