@@ -21,7 +21,7 @@ section.hero_section{
     /* background-image: url(/images/hero.jpeg); */
     max-height: 48vh;
     /* Adds a darker overlay to the background image without effecting the brightness of the text and buttons displayed atop of it*/
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/hero.jpeg); 
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/Home/hero.jpeg); 
     padding: 8rem;
     
 
@@ -60,11 +60,6 @@ section.section_contact{
 
     border-radius: 12px;
 }
-
-
-
-
-
 
 /* === ### CATERING/FOOD ORDER CARDS ### === */
 /* section.section_order_cards {
@@ -118,6 +113,7 @@ section.section_contact{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 5rem;
+    /* scale: 50%; */
 }
 
 .order_card{
@@ -152,14 +148,85 @@ section.section_contact{
 }
 
 
+/* === ### MOST POPULAR SECTION ### === */
+/* Be sure to use the same .product_card class throughout the entire site to ensure consistency and make things a little easier on yourself */
+.product_card{
+    width: 20vw;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    
+    /* background-color:  red; */
+    border-radius: 28px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    transition: .4s ease-in-out;
+
+
+}
+
+.product_card img{
+    border-radius: 28px;
+    width: 100%;
+}
+
+
+.product_card:hover{
+    transform: scale(1.05);
+}
+
+
+/* .product_card_image img{
+    width: 100%;
+    transition: .4s ease-in-out;
+} */
+
+.product_card_text{
+    margin: 2rem;
+    text-align: center;
+}
+
+.product_card_text h3{
+    font-size: 2rem;
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product_card_text p{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.popular_cards{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+}
+
+/* Most Popular Title */
+.section_popular_title{
+    margin-top: 5rem;
+}
+
+.section_popular_title p{
+    font-size: 1.5rem;
+}
+
+.section_popular_title h1{
+    font-size: 5rem;
+}
 
 /* Alternating Grid/Box Design featured in Home Page */
-section.section_alternating{
+.section.section_alternating{
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
-section.section_alternating img{
+.section.section_alternating img{
     border-radius: 25px;
     max-height:fit-content;
 
