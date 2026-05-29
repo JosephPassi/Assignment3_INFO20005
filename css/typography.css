@@ -23,8 +23,30 @@ h2{
     text-transform: uppercase;
 
 }
+
+h3{
+    font-family: "Novecento", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
 p{
     font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+div.hero_content h1 {
+    font-size: 8rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+div.hero_content p{
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+
 }
 
 /* Controls all Font Size for Sections, Need to break up into seperate elements/font types later maybe? */
@@ -38,7 +60,7 @@ section.p{
 }
 
 section.section_order_cards, 
-section.section_green, 
+section.section_contact, 
 section.section_alternating {
     font-size: 2rem;
 }
