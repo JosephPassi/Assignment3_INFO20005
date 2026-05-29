@@ -46,3 +46,7 @@ footer{
     background-color: #006995;
     padding-bottom: 100%;
 }
+
+.hero_content, .header_content{
+    color: #ffff;
+}

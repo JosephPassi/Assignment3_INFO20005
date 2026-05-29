@@ -64,10 +64,15 @@ table {
 
 
 /* === ### CUSTOM STYLING (after CSS reset) ### === */
+html{
+	overflow-y: scroll; /* Scrolling bar was causing slight shifts between pages (depending on whether or not one was present) */
+}
+
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+
 }
 
 body {

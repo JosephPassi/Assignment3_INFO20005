@@ -41,7 +41,7 @@ a{
     text-decoration: none;
 }
 
-
+/* === ### HERO SECTION ### === */
 div.hero_content h1 {
     font-size: 8rem;
     font-weight: 800;
@@ -54,6 +54,21 @@ div.hero_content p{
     margin-bottom: 3rem;
 
 }
+
+/* === ### ALL HEADERS ### === */
+div.header_content h1 {
+    font-size: 8rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+div.header_content p{
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+
+}
+
 
 /* Controls all Font Size for Sections, Need to break up into seperate elements/font types later maybe? */
 section.h1{
