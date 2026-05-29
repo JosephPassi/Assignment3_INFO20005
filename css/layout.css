@@ -41,7 +41,7 @@ div.hero_content{
 /* === ### Contact Us Section ### === */
 section.section_contact{
     padding-top: 5vh;
-    padding-bottom: 15vh;
+    padding-bottom: 10vh;
     padding-left: 5vh;
 
 
@@ -49,17 +49,13 @@ section.section_contact{
 
 } 
 
-/* Home Contact Us: Input Field */
-.home_contact {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-right: 10vh;
-    padding-left: 10vh;
-    margin: 2rem;
-    font-family: "Lato", Arial, Helvetica, sans-serif;
+section.section_contact p{
+    margin-bottom: 2rem;
+    text-align: center;
 
-    border-radius: 12px;
-}
+} 
+
+
 
 /* === ### CATERING/FOOD ORDER CARDS ### === */
 /* section.section_order_cards {
@@ -151,7 +147,7 @@ section.section_contact{
 /* === ### MOST POPULAR SECTION ### === */
 /* Be sure to use the same .product_card class throughout the entire site to ensure consistency and make things a little easier on yourself */
 .product_card{
-    width: 20vw;
+    width: 33vw;
     padding: 2rem;
     margin-top: 2rem;
     margin-right: 1rem;
@@ -159,7 +155,7 @@ section.section_contact{
     
     /* background-color:  red; */
     border-radius: 28px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: .4s ease-in-out;
 
 
@@ -167,7 +163,7 @@ section.section_contact{
 
 .product_card img{
     border-radius: 28px;
-    width: 100%;
+    width: 70%;
 }
 
 
@@ -187,23 +183,25 @@ section.section_contact{
 }
 
 .product_card_text h3{
-    font-size: 2rem;
+    font-size: 3rem;
     
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .product_card_text p{
-    font-size: 1rem;
-    margin-bottom: 3rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .popular_cards{
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; Enable this for the Product Listing Page */
 
     margin-top: 3rem;
     margin-bottom: 5rem;
+
 
 }
 
@@ -220,6 +218,11 @@ section.section_contact{
     font-size: 5rem;
 }
 
+.view_more{
+    margin: 5rem;
+}
+
+/* === ### ALTERNATING GRID SECTION ### === */
 /* Alternating Grid/Box Design featured in Home Page */
 .section.section_alternating{
     padding-top: 5rem;
@@ -307,5 +310,103 @@ div.alternating_right_section img{
 /* div.alternating_right_image{
     flex: 1;
 } */
+
+/* === ### NEWSLETTER SECTION ### === */
+section.section_newsletter{
+    padding-top: 5vh;
+    padding-bottom: 15rem;
+    padding-left: 5vh;
+
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+
+    text-align: center;
+
+} 
+
+/* === ### FOOTER SECTION ### === */
+.footer_container{
+    /* max-width: 80%; */
+    margin: auto;
+    padding: 5rem;
+
+}
+
+.footer_container ul{
+    list-style: none;
+
+}
+
+.footer_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_col{
+    width: 25%;
+    margin: 2rem;
+}
+
+/* Footer Titles */
+
+.footer_col h2{
+    font-size: 3rem;
+    color: #FFFF;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.footer_col h2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #9DF3C4;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+/* Footer Links */
+
+.footer_col a, .footer_col li{
+    color: #FFFF;
+    font-size: 1.5rem;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.footer_col a:hover{
+    color:#E5E7AE;
+    transition: all .3s ease-in-out;
+    padding-left: 10px;
+}
+
+/* Social Media Icons */
+
+.footer_socials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer_socials img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+
+    transition: all .3s ease-in-out;
+}
+
+.footer_socials img:hover{
+    transform: scale(1.25);
+}
+
+
+
+/* .footer-col ul li :not(:last-child){
+    margin-bottom: 2rem;
+} */
+
 
 

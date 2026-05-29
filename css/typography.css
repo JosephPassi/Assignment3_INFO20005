@@ -19,7 +19,7 @@ h1{
 h2{
     font-family: "Novecento", Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
 
 }
@@ -35,6 +35,12 @@ h3{
 p{
     font-family: "Lato", Arial, Helvetica, sans-serif;
 }
+
+a{
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
 
 div.hero_content h1 {
     font-size: 8rem;
@@ -61,7 +67,8 @@ section.p{
 
 section.section_order_cards, 
 section.section_contact, 
-section.section_alternating {
+section.section_alternating, 
+section.section_newsletter {
     font-size: 2rem;
 }
 
