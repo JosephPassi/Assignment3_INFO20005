@@ -109,7 +109,7 @@ nav{
   bottom: -2px; /* Determines the distance that the underline is from the Nav Link text */
   width: 100%;
   height: 2px;
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
   transform: scaleX(0);
   background-color: #E5E7AE; /* Colour of Underline for Nav Link */
 }
