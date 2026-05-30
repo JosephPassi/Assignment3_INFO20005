@@ -41,7 +41,7 @@ a{
     text-decoration: none;
 }
 
-input{
+input, label, option, select{
     font-family: "Lato", Arial, Helvetica, sans-serif;
     text-decoration: none;
 }

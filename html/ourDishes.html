@@ -55,192 +55,216 @@
             </div>
         </section>
 
-
+        
+        <!-- Vertical Filter Options -->
         <section class="product_listing">
+
+            <!-- Sidebar Filters -->
+            <div class="filter_sidebar">
+                <div class="filter_title">Filter</div>
+
+                <h3>Sort By:</h3>
+                <select>
+                    <option>Featured</option>
+                    <option>Most Relvant</option>
+                    <option>Best Selling</option>
+                    <option>Newest</option>
+                    <option>Alphabetically (A-Z)</option>
+                    <option>Alphabetically (Z-A)</option>
+                    <option>Price (Low to High)</option>
+                    <option>Price (High to Low)</option>
+                </select>
+
+                <h3>Dish Type:</h3>
+                <select>
+                    <option>All</option>
+                    <option>Seafood Dishes</option>
+                    <option>Meat Dishes</option>
+                    <option>Baked Dishes</option>
+                </select>
+
+                <h3>Search Name:</h3>
+                <input type="text" id="search" placeholder="Please enter Product Name">
+
+                <h3>Availability:</h3>
+                <select>
+                    <option>All</option>
+                    <option>In-Store</option>
+                    <option>Orders Only</option>
+                    <option>Bulk Purchase</option>
+                </select>
+                
+                <h3>Dietary Requirements</h3>
+                <select>
+                    <option>All</option>
+                    <option>Vegetarian</option>
+                    <option>Vegan</option>
+                    <option>Halal</option>
+                </select>
+
+                <h3>Price Range:</h3>
+                <div class="price_range">
+                    <input type="number" id="min-price" placeholder="$0.00">
+                    <input type="number" id="max-price" placeholder="$0.00">
+                </div>
+
+                <!-- Add more filters if needed -->
+            </div>
+
+            <div class="product_card_grid">
             
-            <div class="dropwdown">
-                <div class="select">
-                    <span class="selected">Waffle</span>
-                    <div class="caret"></div>
-                </div>
+                <div class="popular_cards">
 
-                <ul class="filter_menu">
-                    <li>Option</li>
-                    <li>Option</li>
-                    <li>Option</li>
-                    <li>Option</li>
-                    <li>Option</li>
-                    <li class="active">Active</li>
-                    <li>Option</li>
-                </ul>
-
-                <div class="select">
-                    <span class="selected">Waffle</span>
-                    <div class="caret"></div>
-                </div>
-
-                <ul class="filter_menu">
-                    <li>Option</li>
-                    <li>Option</li>
-                    <li>Option</li>
-                    <li>Option</li>
-                    <li>Option</li>
-                    <li class="active">Active</li>
-                    <li>Option</li>
-                </ul>
-            
-            </div>
-
-            <div class="popular_cards">
-
-                <div class="product_card">
-                    <img src="/images/Products/gbun.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>German Buns</h3>
-                        <p>$4.50</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/gbun.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>German Buns</h3>
+                            <p>$4.50</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
-                </div>
 
-                <div class="product_card">
-                    <img src="/images/Products/seaplatter.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>Seafood Platter</h3>
-                        <p>$90.00</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/seaplatter.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>Seafood Platter</h3>
+                            <p>$90.00</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
-                </div>
 
-                <div class="product_card">
-                    <img src="/images/Products/mtray.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>Mixed Tray</h3>
-                        <p>$75.00</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/mtray.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>Mixed Tray</h3>
+                            <p>$75.00</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
+
                 </div>
 
-            </div>
+                <div class="popular_cards">
 
-            <div class="popular_cards">
-
-                <div class="product_card">
-                    <img src="/images/Products/gbun.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>German Buns</h3>
-                        <p>$4.50</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/gbun.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>German Buns</h3>
+                            <p>$4.50</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
-                </div>
 
-                <div class="product_card">
-                    <img src="/images/Products/seaplatter.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>Seafood Platter</h3>
-                        <p>$90.00</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/seaplatter.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>Seafood Platter</h3>
+                            <p>$90.00</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
-                </div>
 
-                <div class="product_card">
-                    <img src="/images/Products/mtray.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>Mixed Tray</h3>
-                        <p>$75.00</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/mtray.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>Mixed Tray</h3>
+                            <p>$75.00</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
+
                 </div>
 
-            </div>
+                <div class="popular_cards">
 
-            <div class="popular_cards">
-
-                <div class="product_card">
-                    <img src="/images/Products/gbun.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>German Buns</h3>
-                        <p>$4.50</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/gbun.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>German Buns</h3>
+                            <p>$4.50</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
-                </div>
 
-                <div class="product_card">
-                    <img src="/images/Products/seaplatter.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>Seafood Platter</h3>
-                        <p>$90.00</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/seaplatter.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>Seafood Platter</h3>
+                            <p>$90.00</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
-                </div>
 
-                <div class="product_card">
-                    <img src="/images/Products/mtray.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>Mixed Tray</h3>
-                        <p>$75.00</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/mtray.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>Mixed Tray</h3>
+                            <p>$75.00</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
+
                 </div>
 
-            </div>
+                <div class="popular_cards">
 
-            <div class="popular_cards">
-
-                <div class="product_card">
-                    <img src="/images/Products/gbun.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>German Buns</h3>
-                        <p>$4.50</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/gbun.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>German Buns</h3>
+                            <p>$4.50</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
-                </div>
 
-                <div class="product_card">
-                    <img src="/images/Products/seaplatter.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>Seafood Platter</h3>
-                        <p>$90.00</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/seaplatter.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>Seafood Platter</h3>
+                            <p>$90.00</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
-                </div>
 
-                <div class="product_card">
-                    <img src="/images/Products/mtray.jpg" alt="" class="product_card_image">
-                    
-                    <div class="product_card_text">
-                        <h3>Mixed Tray</h3>
-                        <p>$75.00</p>
-                        <a href="" class="button button large">Add to Cart</a>
+                    <div class="product_card">
+                        <img src="/images/Products/mtray.jpg" alt="" class="product_card_image">
+                        
+                        <div class="product_card_text">
+                            <h3>Mixed Tray</h3>
+                            <p>$75.00</p>
+                            <a href="" class="button button large">Add to Cart</a>
+                        </div>
+                        
                     </div>
-                    
+
                 </div>
 
-            </div>
+                <div class="view_more">
+                    <a href="/html/ourDishes.html" class="button cancel large">View More</a>
+                </div>
 
-            <div class="view_more">
-                <a href="/html/ourDishes.html" class="button cancel large">View More</a>
             </div>
             
 

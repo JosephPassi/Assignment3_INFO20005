@@ -146,7 +146,7 @@ section.section_contact p{
 /* === ### MOST POPULAR SECTION ### === */
 /* Be sure to use the same .product_card class throughout the entire site to ensure consistency and make things a little easier on yourself */
 .product_card{
-    width: 33vw;
+    width: 50rem;
     padding: 2rem;
     margin-top: 2rem;
     margin-right: 1rem;
@@ -219,6 +219,23 @@ section.section_contact p{
 
 .view_more{
     margin: 5rem;
+}
+
+/* Product Listing General Format */
+.product_listing{
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    padding: 2rem;
+    gap: 2rem; */
+
+
+}
+
+.product_card_grid{
+    flex: 1;
+
 }
 
 /* === ### ALTERNATING GRID SECTION ### === */
@@ -418,66 +435,85 @@ section.section_newsletter{
 }
 
 
-/* .footer-col ul li :not(:last-child){
-    margin-bottom: 2rem;
-} */
-
 /* === ### DROPDOWN MENUS/FILTERS ### === */
-.dropdown *{
-    box-sizing: border-box;
+
+/* Filter Sidebar */
+.filter_sidebar {
+  width: 18vw;
+  display: flex;
+
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: #967927;
+  
+  border: 1px solid #000000;
+  border-radius: 6px;
+  padding: 1rem;
 
 }
 
-.select{
-    background: red;
-    color: white;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    border: 2px blue solid;
-    border-radius: 0.5em;
-    padding: 1em;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+/* Filter Title Header */
+.filter_title {
+  background-color: #8BAD34;
+  color: #000000;
+  padding: 1rem;
+
+  font-weight: 600;
+  font-size: 2rem;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin: -1rem -1rem 1rem -1rem; /* stretches title box to full width of filter */
 }
 
 
-.select:hover{
-    background: green;
-
+/* Form Labels */
+.filter_sidebar h3 {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 0.5rem;
 }
 
 
+/* Form Controls */
+.filter_sidebar select {
+  width: 100%;
+  padding: 1rem;
 
-/* Arrow (^ v) */
-.caret{
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 6px solid #fff;
-    transition: 0.3s;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  
+  margin-top: 0.5rem;
+  font-size: 1rem;
 }
 
-.caret:active{
-    rotate: 180deg; 
+.filter_sidebar input{
+  /* width: 100% */
+  padding: 1rem;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
 }
 
 
-.filter_menu li{
-    padding: .7em .5em;
-    margin: 0.3em 0;
-    border-radius: 0.5em;
-    cursor: pointer;
+/* Min/Max Inputs Side by Side */
+.price_range {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
 }
 
-.filter_menu li:hover{
-    background: aqua;
+.price_range input {
+  flex: 1;
+  min-width: 0;
 }
 
-.active{
-    background: violet;
-}
 
 
